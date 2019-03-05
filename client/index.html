@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>My Server</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="nav-main" class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">Impact of CS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-content"
+          aria-controls="navbar-content"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="blockchain.html">Blockchain</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="crowd-simulation.html"
+                >Crowd Simulation</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="machine-learning.html"
+                >Machine Learning</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="self-driving-cars.html"
+                >Self-Driving Cars</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="content"></div>
+      <button id="get">Get potatoes</button>
+      <button id="random">Get Random Number</button>
+      <form action="./add" method="post">
+        <div>type of potato to add: <input name="potato_type" /></div>
+        <input type="submit" />
+      </form>
+      <!-- <button id="submit">Submit</button> -->
+      <script src="index.js"></script>
+
+      <div class="container">
+        <div class="row">
+          <div class="col text-center"><h1 id="title">Impact of CS</h1></div>
+        </div>
+      </div>
+      <article>
+        <h2>About Site</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p>
+                This site explores the impact of various technologies on the
+                modern world.
+              </p>
+              <p>
+                Check out each page using the navigation bar to learn about each
+                topic.
+              </p>
+              <p>
+                Further information about specific parts of topics can be found
+                via the links on pages, provided for your convenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p class="text-center">Created using the Bootstrap framework</p>
+      </div>
+      <div class="scripts">
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+          crossorigin="anonymous"
+        ></script>
+      </div>
+    </footer>
+  </body>
+</html>
